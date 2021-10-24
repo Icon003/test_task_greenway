@@ -1,0 +1,16 @@
+:root {
+	--text-color: #22343e;
+	--text-opacity-color: rgb(34, 52, 62, 0.8);;
+
+	--container-background-color: #fbfbfd;
+	--container-border-color: #ededef;
+
+	--table-border-color: #ededef;
+
+	--button-pagination-background-color: #ededef;
+	--button-pagination-text-color: #22343e;
+	--button-pagination-active-background-color: #22343e;
+	--button-pagination-active-text-color: #ededef;
+
+	--loader-background-color: #22343e;
+}
