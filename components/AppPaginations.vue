@@ -1,7 +1,7 @@
 <template>
 	<ul class="app-pagination">
 		<li class="app-pagination__item">
-			<button class="app-pagination__button" @click="$emit('changePage', 1)">Начальная</button>
+			<button class="app-pagination__button" @click="$emit('changePage', 1)">First</button>
 		</li>
 		<li class="app-pagination__item" v-for="page of resultPages" :key="page">
 			<button
@@ -10,7 +10,7 @@
 			@click="$emit('changePage', page)">{{ page }}</button>
 		</li>
 		<li class="app-pagination__item">
-			<button class="app-pagination__button" @click="$emit('changePage', totalPages)">Последняя</button>
+			<button class="app-pagination__button" @click="$emit('changePage', totalPages)">Last</button>
 		</li>
 	</ul>
 </template>
